@@ -19,6 +19,6 @@ var userTests = [
     moduleManager.login('pet', 'blackie'),
 ]
 
-for (var i = 0; i < userTests.length; i += 1) {
-    console.log('user[' + i + '] = ' + JSON.stringify(userTests[i]));
-}
+//for (var i = 0; i < userTests.length; i += 1) {
+//    console.log('user[' + i + '] = ' + JSON.stringify(userTests[i]));
+//}
