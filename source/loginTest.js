@@ -11,4 +11,9 @@ describe('login', function () {
             assert.equal('undefined', typeof (moduleManager.login('pet', 'blackie')));
         });
     });
+    describe('login-dog-cat', function () {
+        it('should fail(return undefined)', function () {
+            assert.equal('undefined', typeof (moduleManager.login('dog', 'cat')));
+        });
+    });
 });
