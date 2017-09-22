@@ -8,8 +8,9 @@ var userList = {
 moduleManager.login = function (id, pw) {
     var user = userList[id];
 
-    if (user.pw === pw)
-        return user
+    if (typeof (user) !== 'undefined')
+        if (user.pw === pw)
+            return user
     //else
     //    return undefined
 }
